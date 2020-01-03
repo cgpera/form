@@ -1,7 +1,31 @@
-<form action="enviar2.php" method="POST">
-    Tu nombre: <input type="text" name="nombre"><br/>
-    Tu correo: <input type="text" name="correo"><br/>
-    Asunto: <input type="text" name="asunto"><br/>
-    Mensaje: <textarea name="mensaje"></textarea><p/>
-    <input type="submit" value="Enviar"><br/>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <form id="cnt_form" action="enviar2.php" method="POST">
+        <div class="form-group">
+            <input type="text" name="nombre" class="form-control name-field" required="required"
+                placeholder="Tu Nombre: "><br />
+        </div>
+        <div class="form-group">
+            <input type="text" name="correo" class="form-control name-field" required="required"
+                placeholder="Tu Correo: "><br />
+        </div>
+        <div class="form-group">
+            <textarea name="mensaje" id="message" class="form-control" required="required" rows="8"
+                placeholder="Mensaje: "></textarea>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
     </form>
+</body>
+
+</html>
