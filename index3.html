@@ -5,27 +5,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <!-- <style>
+        body {
+            background-image: url("img-1.png");
+        }
+    </style> -->
     <title>Document</title>
 </head>
 
-<body>
-    <form id="cnt_form" action="enviar2.php" method="POST">
-        <div class="form-group">
-            <input type="text" name="nombre" class="form-control name-field" required="required"
-                placeholder="Tu Nombre: "><br />
+<body class="container bg-light">
+    <div class="col-sm8 mb-3 text-warning text-center">
+        <h1 class="text-info laboratorio">A L L B A C T E R</h1>
+        <h1>LABORATORIO ESPECIALIZADO EN ANALISIS DE AGUAS</h1>
+        <h2>Martínez Castro 946 - (1408) CABA Tel 5411-4637-7736/4612-3286</h2>
+        <h2><a href="mailto:info@allbacter.com.ar"> info@allbacter.com.ar</a></h2>
+        <h3>Disculpe, nuestro sitio está en construcción</h3>
+    </div>
+    <div class="col-sm-6 mb-3 text-white">
+        <img src="./img/logo.png" class="img-fluid img-thumbnail" alt="logo" height="100px" srcset="">
+        <div id="cnt_form">
+            <form id="contact-form" class="contact border-4" name="contact-form" action="enviar2.php" method="POST">
+                <div class="form-group">
+                    Nombre:
+                    <input type="text" name="nombre" class="form-control name-field" required="required"
+                        placeholder="">
+                <!-- </div>
+                <div class="form-group"> -->
+                    Correo:
+                    <input type="text" name="correo" class="form-control name-field" required="required"
+                        placeholder="Email">
+                <!-- </div>
+                <div class="form-group"> -->
+                    Asunto:
+                    <input type="text" name="asunto" class="form-control name-field" required="required"
+                        placeholder="Motivo">
+                <!-- </div>
+                <div class="form-group"> -->
+                    Mensaje:
+                    <textarea name="mensaje" id="message" class="form-control" required="required" rows="8"
+                        placeholder="Pedidos, consultas, sugerencias..."></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                    <!-- <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
+                        Enviar
+                    </button> -->
+
+                    <!-- Modal -->
+                    <!-- <div class="modal fade" id="staticBackdrop" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                            <div class="modal-body">
+                                <h4>Gracias por contactarnos!</h4>
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </form>
         </div>
-        <div class="form-group">
-            <input type="text" name="correo" class="form-control name-field" required="required"
-                placeholder="Tu Correo: "><br />
-        </div>
-        <div class="form-group">
-            <textarea name="mensaje" id="message" class="form-control" required="required" rows="8"
-                placeholder="Mensaje: "></textarea>
-        </div>
-        <div class="form-group">
-            <button type="submit" class="btn btn-primary">Enviar</button>
-        </div>
-    </form>
+    </div>
+       <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 
 </html>

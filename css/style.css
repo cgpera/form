@@ -1,0 +1,29 @@
+body {
+    background-image: url("../img/microscope-slide-research-close-up-60022.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+@font-face {
+    font-family: 'bauhausbold';
+    src: url('../bauhaus_bold_m-webfont.woff2') format('woff2'),
+         url('../bauhaus_bold_m-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bauhausregular';
+    src: url('../03959_bauhausregular-webfont.woff2') format('woff2'),
+         url('../03959_bauhausregular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.laboratorio {
+    font-family: bauhausregular;
+    font-size: 55px;
+}
