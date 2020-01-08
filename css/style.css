@@ -1,5 +1,6 @@
 body {
-    background-image: url("../img/microscope-slide-research-close-up-60022.jpeg");
+    background-image: url('../technology-lens-small.jpg');
+    /* background-image: url('../img/pexels-photo-1366942.jpeg'); */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -26,4 +27,10 @@ body {
 .laboratorio {
     font-family: bauhausregular;
     font-size: 55px;
+}
+
+.logo {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
