@@ -1,10 +1,9 @@
-body {
+/* body {
     background-image: url('../technology-lens-small.jpg');
-    /* background-image: url('../img/pexels-photo-1366942.jpeg'); */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
-}
+} */
 
 @font-face {
     font-family: 'bauhausbold';
