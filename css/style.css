@@ -1,9 +1,11 @@
 body {
-    background-image: url('../technology-lens-small.jpg');
+    background-image: url('../img/laboratory-test-tubes-2280549.jpg');
     /* background-image: url('../img/pexels-photo-1366942.jpeg'); */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
+/*    background-blend-mode: difference;*/
+    background-blend-mode: difference;
 }
 
 @font-face {
