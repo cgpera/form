@@ -1,3 +1,4 @@
+<<<<<<< HEAD:css/style.css
 body {
     background-image: url('../img/laboratory-test-tubes-2280549.jpg');
     /* background-image: url('../img/pexels-photo-1366942.jpeg'); */
@@ -7,6 +8,14 @@ body {
 /*    background-blend-mode: difference;*/
     background-blend-mode: difference;
 }
+=======
+/* body {
+    background-image: url('../technology-lens-small.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+} */
+>>>>>>> 3a91d8b05b826fa2fbecdfc7061ca29c12341b13:style.css
 
 @font-face {
     font-family: 'bauhausbold';
